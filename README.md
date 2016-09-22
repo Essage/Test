@@ -1,6 +1,3 @@
-
-<<<<<<< H
-
-
+Coucou toi
 Test
->>>>>>> mon-premier-test
+
