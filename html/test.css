@@ -19,3 +19,58 @@ p
     text-align: center;
     
 }
+
+.principal_redirection a:visited
+{
+    color:inherit;
+}
+
+.principal_redirection 
+{
+    font-size: 20px;
+    font-family: 'sinkin_sans400_regular',Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.nav_content
+{
+    
+}
+.element_liste_nav
+{
+    display: inline-block;
+     width: auto;
+}
+
+.liste_nav
+{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    border: 2px solid #444;
+    
+}
+
+section
+{
+    display: flex;
+}
+
+.ico_categorie
+{
+    vertical-align: middle;
+}
+
+article
+{
+    flex: 3;
+}
+
+aside
+{
+    flex: 1.2;
+}
