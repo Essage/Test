@@ -22,42 +22,48 @@ p
 
 
 
-.principal_redirection 
+.principal_header
 {
-    display: flex;
-    justify-content :space-around ;
-    font-size: 20px;
-    font-family: 'sinkin_sans400_regular',Arial,Helvetica,sans-serif;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.titre_principal
-{
-    flex : 2;
-    margin: auto;
-    text-align: center;
-    text-decoration:none;
     
+    position : relative;
+background: url('pictures/Back_header.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+opacity: 1;s
+  width: 100%;
+    height:192px;
+    
+    margin :0;
 
 }
+#bord_logo
+{
+display: inline-block;
+    border: 1px solid black;
+}
+
 #logo_principal
 {
-    margin: 20px 20px 10px 20px;
-    padding: auto;
+    
+    display: flex;
+    justify-content: space-around;
+   padding-top: 30px;
+
      flex :1.1;
-     border: 1px solid black;
+     
 }
 
 .nav_content
 {
-    margin-top: 20px:;
+
+    margin: 0;
+
 }
 .element_liste_nav
 {
     display: inline-block;
      width: auto;
-
 }
 
 .liste_nav
@@ -65,15 +71,20 @@ p
     
     display: flex;
     justify-content: space-around;
-    width: 90%;
-    margin: auto;
-    border: 2px solid #444;
+    width: 98%;
+    background-color: black;
+    color:#FFFFFF;
+    font-family: 'sinkin_sans400_regular',Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid black;
     
 }
 
 section
 {
     display: flex;
+    margin-top: 10px;
 }
 
 .ico_categorie
@@ -84,6 +95,7 @@ section
 article
 {
     flex: 3;
+    border: 1px solid #444;
 }
 
 aside
@@ -91,6 +103,8 @@ aside
     flex: 1.2;
     position: relative;
     padding :10px;
+    margin-left: 20px;
+    border: 1px solid #444;
     
 }
 a /* Liens par défaut (non survolés) */
@@ -101,4 +115,9 @@ a /* Liens par défaut (non survolés) */
 a:hover /* Apparence au survol des liens */
 {
    text-decoration: none;
+}
+
+body, nav ,header, ul
+{
+    margin: 0;
 }

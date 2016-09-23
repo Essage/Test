@@ -7,8 +7,7 @@
 	</head>
 <! --- Commentaire : ça sera the home page --->
     <header class="principal_redirection">
-        <a  href="test.html" visited="_blank"><img src="pictures/logo_e.png" id= "logo_principal"></a>
-       <h1 class="titre_principal"> <a  href="test.html" visited="_blank">Home</a></h1>
+        <a  href="test.html" visited="_blank"><img src="pictures/logo_e.png" alt="home" id= "logo_principal"></a>
     </header>
     
     <nav class="nav_content">
@@ -20,7 +19,7 @@
     </nav>
 	<body>
         <section> 
-            <article>
+            <article class ="article_format">
                 <h1> Ma première page web</h1>
                 <p> Ceci est la description de ma première page web</p>
            </article>
