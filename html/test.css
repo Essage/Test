@@ -121,3 +121,14 @@ body, nav ,header, ul
 {
     margin: 0;
 }
+
+.pied-de-page
+{
+margin-top :20px;
+background-color:rgba(247, 247, 247,0.5);
+border: 1px solid black;
+height:190px;
+width:100%;
+position:absolute;
+bottom:0;
+}
