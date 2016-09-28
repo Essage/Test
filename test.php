@@ -7,6 +7,8 @@
     </head>
 <! --- Commentaire : ça sera the home page --->
 <body>
+<div id="page">
+ <div id="bloc-principal">
     <?php include("html/en-tete.php");?>
     <?php include("html/navigateur.php");?>
   
@@ -22,6 +24,9 @@
                 Test test <br />
             </aside>
         </section> 
+ </body>
 <?php include("html/pied-de-page.php");?>
+
+</div>
 </body>
 
