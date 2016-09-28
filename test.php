@@ -22,6 +22,6 @@
                 Test test <br />
             </aside>
         </section> 
-
+<?php include("html/pied-de-page.php");?>
 </body>
 
