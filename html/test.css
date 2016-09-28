@@ -3,11 +3,11 @@ h1
 
 @font-face {
     font-family: 'sinkin_sans400_regular';
-    src: url('fonts/SinkinSans-400Regular-webfont.eot');
-    src: url('fonts/SinkinSans-400Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/SinkinSans-400Regular-webfont.woff') format('woff'),
-         url('fonts/SinkinSans-400Regular-webfont.ttf') format('truetype'),
-         url('fonts/SinkinSans-400Regular-webfont.svg#sinkin_sans400_regular') format('svg');
+    src: url('html/fonts/SinkinSans-400Regular-webfont.eot');
+    src: url('html/fonts/SinkinSans-400Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('html/fonts/SinkinSans-400Regular-webfont.woff') format('woff'),
+         url('html/fonts/SinkinSans-400Regular-webfont.ttf') format('truetype'),
+         url('html/fonts/SinkinSans-400Regular-webfont.svg#sinkin_sans400_regular') format('svg');
     font-weight: normal;
     font-style: normal;
 
