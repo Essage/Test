@@ -11,7 +11,7 @@ height:100%
 
 #bloc-principal
 {
- padding-bottom: 190px;
+ padding-bottom: 100px;
 }
 
 h1
@@ -74,20 +74,24 @@ display: inline-block;
 {
 
     margin: 0;
+    height=20px;
 
 }
 .element_liste_nav
 {
     display: inline-block;
-     width: auto;
+    height:30px;
+    padding:1%;
+    width: auto;
 }
 
 .liste_nav
 {
-    
+       
     display: flex;
     justify-content: space-around;
   
+    height:30px;
     background-color: black;
     color:#FFFFFF;
     font-family: 'sinkin_sans400_regular',Arial,Helvetica,sans-serif;
@@ -147,7 +151,7 @@ body, nav ,header, ul
 
 background-color:rgba(247, 247, 247,0.5);
 border: 1px solid black;
-height:190px;
+height:100px;
 width:100%;
 position:absolute;
 bottom:0;
