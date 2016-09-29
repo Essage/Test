@@ -15,11 +15,12 @@
 
         <section> 
             <article>
-                <h1> Ma première page web</h1>
+                
                 <p> Ceci est la description de ma première page web</p>
            </article>
              <aside>
-                Test test <br />
+                <h1> Dernière modification</h1>
+		Test test <br />
                 Test test <br />
                 Test test <br />
             </aside>
