@@ -1,6 +1,7 @@
 html,body
 {
-height:100%
+height:100%;
+margin: 0;
 }
 
 #page
@@ -70,35 +71,83 @@ display: inline-block;
      
 }
 
-.nav_content
-{
 
-    margin: 0;
-    height=20px;
-
-}
-.element_liste_nav
+.menu-deroulant, .menu-deroulant ul
 {
-    display: inline-block;
-    height:30px;
-    padding:1%;
-    width: auto;
+    padding: 0;
+    margin:0;
+    list-style: none;
 }
 
-.liste_nav
+.menu-deroulant 
 {
-       
-    display: flex;
-    justify-content: space-around;
-  
-    height:30px;
+    text-align: center;
     background-color: black;
-    color:#FFFFFF;
-    font-family: 'sinkin_sans400_regular',Arial,Helvetica,sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    border: 2px solid black;
+    height: 30px
+}
+
+
+.menu-deroulant li
+{
+   
+    display: inline-block;
+    padding:0 5px 0 5px;
+}
+
+
+.menu-deroulant a
+{
+    text-decoration:none;
+    display:block;
+    line-height:30px;
+    color:#FFF;
+}
+
+.menu-deroulant li ul
+{
+    position: absolute;
+    display:none;
+    z-index: 10;
     
+}
+
+
+.menu-deroulant li:hover ul
+{
+     position: absolute;
+    display:block;
+    display:flex;
+    width: 100%;
+
+}
+
+.menu-deroulant li:hover ul .Liste
+{
+    display:block;
+}
+.menu-deroulant li:hover ul .Liste li
+{
+    display:inherit;
+}
+
+.menu-deroulant li ul
+{
+  border : 1px solid black;
+ 
+}
+
+.menu-deroulant li ul .Liste
+{
+    display:block;
+}
+
+.menu-deroulant li ul .Liste li a
+{
+    color: #000;
+}
+
+.logo-liste
+{ 
 }
 
 section
@@ -136,15 +185,8 @@ a /* Liens par défaut (non survolés) */
    text-decoration: none;
 }
 
-a:hover /* Apparence au survol des liens */
-{
-   text-decoration: none;
-}
 
-body, nav ,header, ul
-{
-    margin: 0;
-}
+
 
 .pied-de-page
 {
@@ -156,3 +198,6 @@ width:100%;
 position:absolute;
 bottom:0;
 }
+
+
+
